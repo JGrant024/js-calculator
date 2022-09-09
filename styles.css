@@ -7,13 +7,13 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, cyan,  black);
+    background: linear-gradient(to right, #1EE2DE, #18191B );
 }
 
 .calculator-grid {
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px); 
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
