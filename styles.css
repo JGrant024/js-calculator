@@ -50,6 +50,7 @@ body {
      word-break: break-all;
 } 
 
-.output{
-    
+.output .previous-operand {
+    color: #ffff;
+    font-size: 2.5rem;
 }
