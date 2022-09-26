@@ -13,7 +13,7 @@ delete(){
 
 }
  
-appendNumber(number) {
+pushNumber(number) {
 
 }
 
@@ -40,9 +40,9 @@ const currentOperandTexetElement = document.querySelectorAll('[data-current-oppe
 
 const Calculator = new Calculator(previousOperandTexetElement, currentOperandTexetElement),
 
-numberButtons.forEach(button => {
+$numberButtons.forEach(button => {
     button.addEventListener('click', () => {
-        calculator.appendNumber(button.innerText) 
+        calculator.pushNumber(button.innerText) 
         calculator.updateDisplay()
     })
 })
